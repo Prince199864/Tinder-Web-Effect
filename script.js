@@ -17,7 +17,7 @@ let users = [
         pendingMessage: 8,
         location: "New York, USA",
         age: 26,
-        interests: ["Resourcefulness", "Combat Proficiency", "Leadership"],
+        interests: ["Resourcefulness", "Combat", "Leadership"],
         bio: "Claire is the younger sister of Chris Redfield. She is a tough and independent woman who initially arrives in Raccoon City searching for her brother, only to find herself caught in the midst of a viral outbreak.",
         isFriend: null
     },
