@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Web Effects</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+        .detailsContainer {
+            background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Download Font -->
+    <div class="w-full h-screen bg-black font-['Playwrite NG Modern']">
+        <div class="imageContainer w-full h-screen relative overflow-hidden">
+            <div class="maincard z-[3] w-[130%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2  h-[130%]">
+                <img class="maincardImg w-full h-full object-cover" src="" alt="">
+            </div>
+            <div
+                class="incomingcard z-[2] w-[130%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2  h-[130%] ">
+                <img class="incomingcardImg w-full h-full object-cover" src="" alt="">
+            </div>
+        </div>
+        <div class="absolute top-0 left-0 z-[4] w-full h-screen flex flex-col justify-between">
+            <div class="navbar px-5 py-7 flex justify-between items-center text-white">
+                <div class="profileImg w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                    <img class="w-full h-full object-cover" src="" alt="">
+                </div>
+                <h3 class="capitalize text-xl font-medium tracking-tight">they liked you</h3>
+                <div
+                    class="chatIcon relative flex items-center justify-center rounded-full w-[3.5rem] h-[3.5rem] bg-white/20">
+                    <i class="opacity-70  ri-chat-3-fill"></i>
+                    <div
+                        class="badge absolute top-0 right-0 flex items-center justify-center rounded-full w-5 h-5 bg-[#FC5149]">
+                        <h5 class="text-xs font-medium">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="detailsContainer w-full">
+                <div class="details px-5 py-7 w-full">
+                    <div class="info location flex gap-4">
+                        <i
+                            class="w-[1.6rem] h-[1.6rem] flex items-center justify-center rounded-full font-semibold bg-white ri-corner-left-up-line"></i>
+                        <h3 class="text-white">USA, California</h3>
+                    </div>
+                    <div class="info nameage flex gap-5 text-white mt-1">
+                        <h1 class="name font-regular tracking-tight text-7xl">Victoria</h1>
+                        <h1 class="age font-regular tracking-tight text-7xl" class="opacity-60">20</h1>
+                    </div>
+                    <div class="info tags flex gap-3 text-white mt-4">
+
+                        <!-- <div class="tag flex items-center bg-white/30 px-5 py-2 rounded-full gap-3">
+                            <i class="text-sm ri-ping-pong-fill"></i>
+                            <h3 class="text-sm tracking-tight">Ping Pong</h3>
+                        </div>
+                        <div class="tag flex items-center bg-white/30 px-5 py-2 rounded-full gap-3">
+                            <i class="text-sm ri-suitcase-3-fill"></i>
+                            <h3 class="text-sm tracking-tight">Travelling</h3>
+                        </div> -->
+                    </div>
+                    <div class="info bio text-white/80 mt-5">
+                        <h3 class="text-xl">Bio</h3>
+                        <p class="text-lg mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                            molestias.
+                            Sequi, enim esse ab quaerat ipsum impedit eligendi voluptate saepe!</p>
+                    </div>
+                    <div class="info btn flex items-start mt-10 gap-3">
+                        <button class="decline py-3 w-1/2 bg-white rounded-xl">
+                            <i class="text-3xl font-semibold ri-close-line"></i>
+                        </button>
+                        <button class="accept py-3 w-1/2 bg-[#FC5149] rounded-xl">
+                            <i class="text-3xl font-semibold text-white ri-heart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
