@@ -28,7 +28,7 @@ let users = [
         pendingMessage: 45,
         location: "Unknown, Earth",
         age: 21,
-        interests: ["Martial Arts", "Espionage", "Manipulation"],
+        interests: ["MartialArts", "Espionage", "Manipulation"],
         bio: "Ada is a mysterious and skilled spy who often operates independently. She is highly intelligent, proficient in martial arts, and skilled in using various weapons. Ada's allegiances often shift, making her a complex character.",
         isFriend: null
     },
